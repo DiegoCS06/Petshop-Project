@@ -1,7 +1,7 @@
 # Evidencia de mejoras — Little Petshop
 
 Repositorio original (issues reportados): https://github.com/Blap00/Petshop-Project
-Fork de trabajo (fixes aplicados): https://github.com/<TU-USUARIO>/Petshop-Project
+Fork de trabajo (fixes aplicados): https://github.com/DiegoCS06/Petshop-Project
 
 > Nota: el equipo tiene rol de colaborador con permisos de "Triage" en el
 > repositorio original, por lo que puede crear/comentar/cerrar issues pero
@@ -45,9 +45,9 @@ en cada PR enlazado en la tabla de arriba.
 
 Se agregó `.github/workflows/build.yml`, que compila el proyecto con
 Maven en cada push y Pull Request. Historial completo de corridas:
-https://github.com/<TU-USUARIO>/Petshop-Project/actions
+https://github.com/DiegoCS06/Petshop-Project/actions
 
 ## Estado del repositorio
 
 - Build status: ![build](https://github.com/<TU-USUARIO>/Petshop-Project/actions/workflows/build.yml/badge.svg)
-- Último commit verificable en: https://github.com/<TU-USUARIO>Petshop-Project/commits/main
+- Último commit verificable en: https://github.com/DiegoCS06/Petshop-Project/commits/main
