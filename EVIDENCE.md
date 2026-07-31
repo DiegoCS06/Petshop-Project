@@ -11,7 +11,7 @@ Fork de trabajo (fixes aplicados): https://github.com/<TU-USUARIO>/Petshop-Proje
 
 | # | Issue original | PR con el fix (en el fork) | Revisor | Resultado CI | Estado issue original |
 |---|---|---|---|---|---|
-| 1 | [#49 Credenciales BD Incompletas](https://github.com/Blap00/Petshop-Project/issues/49) | <link PR fork> | Diego Calvo Sanabria | ✅ Build passing | Cerrado con comentario |
+| 1 | [#49 Credenciales BD Incompletas](https://github.com/Blap00/Petshop-Project/issues/49) | [#49 Credenciales BD Incompletas](https://github.com/Blap00/Petshop-Project/issues/49) | Diego Calvo Sanabria | ✅ Build passing | Cerrado con comentario |
 | 2 | [#50 Inconsistencia en BD](https://github.com/Blap00/Petshop-Project/issues/50) | <link PR fork> | Diego Calvo Sanabria | ✅ Build passing | Cerrado con comentario |
 | 3 | [#51 Datos de prueba ausentes](https://github.com/Blap00/Petshop-Project/issues/51) | <link PR fork> | Diego Calvo Sanabria | ✅ Build passing | Cerrado con comentario |
 | 4 | [#52 Instrucciones específicas para un IDE](https://github.com/Blap00/Petshop-Project/issues/52) | <link PR fork> | Diego Calvo Sanabria | ✅ Build passing | Cerrado con comentario |
