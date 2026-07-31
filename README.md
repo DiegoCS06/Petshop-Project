@@ -15,8 +15,6 @@ Al arrancar la aplicación, el archivo data.sql cargará datos de prueba automá
 <!-- ============ Nueva sección: instalación multi-IDE (issue #52) ============ -->
 **Instalación según tu IDE**
 
-#instalacion-segun-tu-ide
-
 El proyecto se puede abrir en cualquier IDE con soporte para Maven, no solo en Spring Tool Suite (STS). El archivo .project incluido es específico de Eclipse/STS y puede ignorarse si usas otro entorno.
 
 Spring Tool Suite (STS) / Eclipse
