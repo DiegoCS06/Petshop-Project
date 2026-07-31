@@ -1,0 +1,21 @@
+# Levanta una base de datos MySQL local lista para Little Petshop.
+# Uso:
+#   docker compose up -d
+# Debe coincidir con los valores usados en application.properties.example
+version: "3.8"
+
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: petshop-mysql
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: petshop_db
+    ports:
+      - "3306:3306"
+    volumes:
+      - petshop_mysql_data:/var/lib/mysql
+
+volumes:
+  petshop_mysql_data:
