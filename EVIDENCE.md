@@ -50,4 +50,4 @@ https://github.com/<TU-USUARIO>/Petshop-Project/actions
 ## Estado del repositorio
 
 - Build status: ![build](https://github.com/<TU-USUARIO>/Petshop-Project/actions/workflows/build.yml/badge.svg)
-- Último commit verificable en: https://github.com/<TU-USUARIO>/Petshop-Project/commits/main
+- Último commit verificable en: https://github.com/<TU-USUARIO>Petshop-Project/commits/main
