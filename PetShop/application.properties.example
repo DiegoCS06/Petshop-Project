@@ -1,11 +1,7 @@
 # ==========================================================
 # EJEMPLO DE CONFIGURACION - Little Petshop
 #
-# Como usar:
-#   1. Copia este archivo como "application.properties" dentro de
-#      PetShop/src/main/resources/
-#   2. Reemplaza los valores segun tu entorno local
-#   3. NUNCA subas a git tu application.properties real con datos
+# Como usar: NUNCA subas a git tu application.properties real con datos
 #      de conexion reales (debe estar listado en .gitignore)
 # ==========================================================
 
