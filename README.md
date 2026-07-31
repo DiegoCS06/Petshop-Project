@@ -3,7 +3,36 @@
 
 **Descripción:**
 
-Little Petshop es una aplicación Java Spring diseñada para satisfacer las necesidades de locales que venden productos para animales, como comida, juguetes, muebles y más. Esta aplicación utiliza Java Spring Boot y una base de datos Oracle para ofrecer un sistema de gestión de inventario y ventas eficiente.
+Little Petshop es una aplicación Java Spring diseñada para satisfacer las necesidades de locales que venden productos para animales, como comida, juguetes, muebles y más. Esta aplicación utiliza Java Spring Boot y una base de datos MySQL para ofrecer un sistema de gestión de inventario y ventas eficiente.
+
+<!-- ============ Reemplaza/agrega en Configuración del Proyecto (issue #49) ============ -->
+Clona o descarga el repositorio de Little Petshop en tu sistema local.
+Copia application.properties.example a PetShop/src/main/resources/application.properties y ajusta los valores de conexión a tu base de datos local.
+Levanta una base de datos MySQL:
+Opción rápida con Docker: docker compose up -d
+O manualmente, creando la base con CREATE DATABASE petshop_db;
+Al arrancar la aplicación, el archivo data.sql cargará datos de prueba automáticamente (productos, categorías y usuarios demo).
+<!-- ============ Nueva sección: instalación multi-IDE (issue #52) ============ -->
+**Instalación según tu IDE**
+
+#instalacion-segun-tu-ide
+
+El proyecto se puede abrir en cualquier IDE con soporte para Maven, no solo en Spring Tool Suite (STS). El archivo .project incluido es específico de Eclipse/STS y puede ignorarse si usas otro entorno.
+
+Spring Tool Suite (STS) / Eclipse
+File → Import → Maven → Existing Maven Projects.
+Selecciona la carpeta PetShop.
+Ejecuta la clase principal como Spring Boot App.
+IntelliJ IDEA
+File → Open y selecciona la carpeta PetShop (IntelliJ detecta el pom.xml automáticamente e importa el proyecto Maven).
+Espera a que se descarguen las dependencias.
+Ejecuta la clase principal (con el ícono ▶ verde) o usa el panel Maven → Lifecycle → spring-boot:run.
+VS Code
+Instala las extensiones Extension Pack for Java y Spring Boot Extension Pack (Pack de Microsoft).
+Abre la carpeta PetShop con File → Open Folder.
+Desde el explorador de Spring Boot Dashboard, o desde la clase principal, selecciona Run.
+
+En cualquiera de los tres casos, la app queda disponible en http://localhost:8080 una vez iniciada.
 
 ## Requisitos Previos
 
