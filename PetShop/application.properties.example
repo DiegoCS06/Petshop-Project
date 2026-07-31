@@ -1,0 +1,34 @@
+# ==========================================================
+# EJEMPLO DE CONFIGURACION - Little Petshop
+#
+# Como usar:
+#   1. Copia este archivo como "application.properties" dentro de
+#      PetShop/src/main/resources/
+#   2. Reemplaza los valores segun tu entorno local
+#   3. NUNCA subas a git tu application.properties real con datos
+#      de conexion reales (debe estar listado en .gitignore)
+# ==========================================================
+
+# --- Base de datos MySQL ---
+# Requisito: tener MySQL corriendo localmente (o via Docker, ver
+# docker-compose.yml incluido) y crear la base antes de arrancar:
+#   CREATE DATABASE petshop_db;
+spring.datasource.url=jdbc:mysql://localhost:3306/petshop_db?useSSL=false&serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# --- JPA / Hibernate ---
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+# Necesario para que Spring Boot ejecute data.sql (seeds) DESPUES
+# de que Hibernate cree las tablas automaticamente. Sin esto, el
+# insert de data.sql falla porque las tablas todavia no existen.
+spring.jpa.defer-datasource-initialization=true
+spring.sql.init.mode=always
+
+# --- Vistas JSP ---
+spring.mvc.view.prefix=/WEB-INF/Views/
+spring.mvc.view.suffix=.jsp
+spring.mvc.hiddenmethod.filter.enabled=true
