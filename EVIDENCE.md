@@ -3,11 +3,10 @@
 Repositorio original (issues reportados): https://github.com/Blap00/Petshop-Project
 Fork de trabajo (fixes aplicados): https://github.com/DiegoCS06/Petshop-Project
 
-> Nota: el equipo tiene rol de colaborador con permisos de "Triage" en el
+> Nota: Ya que el equipo tiene rol de colaborador con permisos de "Triage" en el
 > repositorio original, por lo que puede crear/comentar/cerrar issues pero
-> no crear ramas ni Pull Requests ahí. Por eso los cambios se implementaron
-> en el fork indicado arriba, y cada issue original se cerró manualmente
-> dejando un comentario con el enlace al fix correspondiente.
+> no crear ramas ni Pull Requests ahí, los cambios se implementaron
+> en el fork indicado arriba.
 
 | # | Issue original | PR con el fix (en el fork) | Revisor | Resultado CI | Estado issue original |
 |---|---|---|---|---|---|
